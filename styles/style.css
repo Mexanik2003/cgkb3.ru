@@ -149,13 +149,14 @@
 }
 
 .header__signup-list {
-    background-color: #fff;
-	border-color: #0098DB;
+    background-color: #D53124;
+	border-color: #8A150C;
 	margin: auto 0 auto 0;
 	border-radius: 26px;
 	width: 220px;
 	height: 50px;
-
+	cursor: pointer;
+	outline: none;
 	/* padding: 10px 40px; */
     border-width: 2px;
     transition: .3s;
@@ -164,14 +165,15 @@
 }
 
 .header__signup-list-element{
-	color: #0098DB;
+	color: #fff;
 	font-size: 16px;
     line-height: 28px;
     white-space: nowrap;
     text-transform: uppercase;
     letter-spacing: 0.04em;
 	text-align-last: center; 
-	text-align: center; 
+	text-align: center;
+	 
 }
 
 .header__signup-list-element:first-child{
@@ -182,7 +184,14 @@
 .navbar {
 	width: 100%;
 	height: 60px;
-    background: #044094;
+	/* background: #044094; 
+	Основной цвет: #D53124
+	Вторичный цвет А: #D57924
+	Вторичный цвет B: #187582
+	Дополнительный цвет: #1CA333
+	https://colorscheme.ru/#0341TqAqJw0w0
+	*/
+    background: #187582;
 
 }
 
@@ -231,6 +240,26 @@
 
 }
 
+.navbar__searchbtn {
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 18px 8px;
+
+}
+
+.navbar__searchbtn:after {
+	content: "\f002";
+	font-size: 15px;
+
+	-webkit-transform: rotate(-90deg) scale(0);
+    transform: rotate(-90deg) scale(0);
+    font-family: "FontAwesome";
+}
+
 .navbar__menu-arrow { 
 }
 
@@ -249,7 +278,7 @@
 
 
 .navbar__second-menu{
-	background: #0098DB;
+	background: #187582;
 	margin-top: 0px;
 	padding-bottom: 5px;
 	position: absolute;
@@ -269,19 +298,76 @@
 
 .navbar__second-menu-element {
 	display: block;
-    padding: 8px 15px 8px 0px;
+    padding: 8px 15px 8px 15px;
 	text-transform: none;
 	font-size: 14px;
     line-height: 24px;
     color: #fff;
 	white-space: nowrap;
 	list-style-type: none;
+	transition: all 0.35s ease-in-out;
 }
 
 .navbar__second-menu-link {
 	font-size: 14px;
 	color: #fff;
 	text-decoration: none;
+}
+
+
+.navbar__second-menu-element:hover > a:before {
+	content: "";
+	font-family: 'FontAwesome';
+	font-size: 14px;
+	color: #fff;
+	/* padding: 18px 24px; */
+	display: inline-block;
+	/* transform: translateY(50%); */
+	vertical-align: middle;
+}
+
+.ou-block {
+	display: flex;
+}
+
+.ou-block__list-element {
+	width: 292px;
+	height: 286px;
+	list-style-type: none;
+	background: #001542;
+	color: #fff;
+	padding: 0px 15px 0px 15px;
+
+}
+
+.ou-block__list-element-header {
+	text-transform: uppercase;
+}
+
+.ou-block__list-element-desc {
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 15px 0 0 0;
+}
+
+.ou-block__list-element-sheduleblock {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5px 0 0 0;
+}
+
+.ou-block__list-element-sheduledays {
+	font-size: 16px;
+	margin: 0;
+}
+
+.ou-block__list-element-shedulevalue {
+	margin: 0;
+	font-weight: 700;
+	font-size: 16px;
+
 }
 
 

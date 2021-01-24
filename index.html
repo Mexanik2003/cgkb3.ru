@@ -148,347 +148,43 @@
                         </ul>
                     </li>
                     <li class="navbar__main-menu-element">
-                        <a class="navbar__main-menu-link" href="/contact">
-                            Поиск
-                        </a>
+                        <a class="navbar__searchbtn" href="/contact"></a>
                     </li>
                 </ul>
             </nav>
 
-            <!-- Record Modal -->
-            <div id="record" class="fade modal" role="dialog" tabindex="-1">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" id="close-button" class="close" data-dismiss="modal" aria-hidden="true">×
-                    </button>
-                    <h4 class="text-left text-bold">Запись на платные услуги
-                    </h4>
-                </div>
-                <div class="modal-body">
-                    <!-- modal preloader -->
-                    <div class="modal_preloader">
-                    <div class="modal_preloader_image fa-spin">
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
             <!-- Advertising Slider -->
-            <div>
-            <!--Swiper-->
-            <div data-loop="true" data-height="" data-slide-effect="fade" data-autoplay="true" data-draggable="false" data-min-height="400px" class="swiper-container swiper-slider bg-white swiper-container-horizontal swiper-container-fade">
-                <div class="swiper-wrapper text-center" style="transition-duration: 0ms;">
-                <div id="page-loader" data-slide-bg="/images/slides/slide01.png" class="swiper-slide swiper-slide-duplicate" style="background-image: url(&quot;/images/slides/slide01.png&quot;); background-size: cover; background-position: center center; width: 1904px; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms; opacity: 1;" data-swiper-slide-index="7">
-                    <div style="background: rgba(0, 0, 0, 0.36); height:100%">
-                    <div class="swiper-caption">
-                        <div class="swiper-slide-caption">
-                        <div class="shell">
-                            <div class="range">
-                            <div class="cell-md-7 section-34 section-sm-66 section-md-bottom-167 not-animated" data-caption-animate="fadeInDown" data-caption-delay="100">
-                                <div class="text-md-left">
-                                <div class="caption" style="padding: 20px">
-                                    <h2 class="text-bold text-white">Душ 
-                                    <br class="veil reveal-md-block">Шарко
-                                    </h2>
-                                    <h5 class="veil reveal-md-block text-white">Сделай свою фигуру красивой и стройной!
-                                    </h5>
-                                    <a href="https://cgb7.ru/blog/59-dush-sharko-dlya-zdorovya-i-pohudeniya" class="btn btn-ellipse btn-blue offset-top-24 not-animated" data-caption-animate="flipInY" data-caption-delay="1000">подробнее
-                                    </a>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="cell-md-5 cell-md-bottom">
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div id="page-loader" data-slide-bg="/images/slides/slide_covid.png" class="swiper-slide" style="background-image: url(&quot;/images/slides/slide_covid.png&quot;); background-size: cover; background-position: center center; width: 1904px; transform: translate3d(-1904px, 0px, 0px); transition-duration: 0ms; opacity: 1;" data-swiper-slide-index="0">
-                    <div style="background: rgba(0, 0, 0, 0.36); height:100%">
-                    <div class="swiper-caption">
-                        <div class="swiper-slide-caption">
-                        <div class="shell">
-                            <div class="range">
-                            <div class="cell-md-7 section-34 section-sm-66 section-md-bottom-167 not-animated" data-caption-animate="fadeInDown" data-caption-delay="100">
-                                <div class="text-md-left">
-                                <div class="caption" style="padding: 20px">
-                                    <h2 class="text-bold text-white">Заявка на вакцинацию
-                                    <br>от COVID-19
-                                    </h2>
-                                    <h5 class="veil reveal-md-block text-white">
-                                    </h5>
-                                    <a href="https://cgb7.ru/prevention/vaccination/covid-19" class="btn btn-ellipse btn-blue offset-top-24 not-animated" data-caption-animate="flipInY" data-caption-delay="1000">подробнее
-                                    </a>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="cell-md-5 cell-md-bottom">
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div id="page-loader" data-slide-bg="/images/slides/koronavirus.png" class="swiper-slide" style="background-image: url(&quot;/images/slides/koronavirus.png&quot;); background-size: cover; background-position: center center; width: 1904px; transform: translate3d(-3808px, 0px, 0px); transition-duration: 0ms; opacity: 1;" data-swiper-slide-index="1">
-                    <div style="background: rgba(0, 0, 0, 0.36); height:100%">
-                    <div class="swiper-caption">
-                        <div class="swiper-slide-caption">
-                        <div class="shell">
-                            <div class="range">
-                            <div class="cell-md-7 section-34 section-sm-66 section-md-bottom-167 not-animated" data-caption-animate="fadeInDown" data-caption-delay="100">
-                                <div class="text-md-left">
-                                <div class="caption" style="padding: 20px">
-                                    <h2 class="text-bold text-white">Коронавирус
-                                    <br>COVID–19
-                                    </h2>
-                                    <h5 class="veil reveal-md-block text-white">
-                                    <span class="h4 text-white">Единая горячая линия:
-                                        <br>
-                                        <a href="tel:122" class="h3 text-bold text-white">122
-                                        </a>
-                                        <br>
-                                        <a href="tel:88002000112" class="h3 text-bold text-white">8-800-2000-112
-                                        </a>
-                                        <br>
-                                        <a href="tel:88005554943" class="h3 text-bold text-white">8-800-555-49-43
-                                        </a>
-                                    </span>
-                                    </h5>
-                                    <a href="https://cgb7.ru/prevention/koronavirus" class="btn btn-ellipse btn-blue offset-top-24 not-animated" data-caption-animate="flipInY" data-caption-delay="1000">подробнее
-                                    </a>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="cell-md-5 cell-md-bottom">
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div id="page-loader" data-slide-bg="/images/slides/gripp-slide.png" class="swiper-slide" style="background-image: url(&quot;/images/slides/gripp-slide.png&quot;); background-size: cover; background-position: center center; width: 1904px; transform: translate3d(-5712px, 0px, 0px); transition-duration: 0ms; opacity: 1;" data-swiper-slide-index="2">
-                    <div style="background: rgba(0, 0, 0, 0.36); height:100%">
-                    <div class="swiper-caption">
-                        <div class="swiper-slide-caption">
-                        <div class="shell">
-                            <div class="range">
-                            <div class="cell-md-7 section-34 section-sm-66 section-md-bottom-167 not-animated" data-caption-animate="fadeInDown" data-caption-delay="100">
-                                <div class="text-md-left">
-                                <div class="caption" style="padding: 20px">
-                                    <h2 class="text-bold text-white">Внимание, ГРИПП!
-                                    </h2>
-                                    <h5 class="veil reveal-md-block text-white">Каждый человек может уберечься от этого заболевания или значительно облегчить его течение, если будет соблюдать определённые меры предосторожности.
-                                    </h5>
-                                    <a href="https://cgb7.ru/prevention/gripp" class="btn btn-ellipse btn-blue offset-top-24 not-animated" data-caption-animate="flipInY" data-caption-delay="1000">подробнее
-                                    </a>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="cell-md-5 cell-md-bottom">
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div id="page-loader" data-slide-bg="/images/slides/slide-05.png" class="swiper-slide" style="background-image: url(&quot;/images/slides/slide-05.png&quot;); background-size: cover; background-position: center center; width: 1904px; transform: translate3d(-7616px, 0px, 0px); transition-duration: 0ms; opacity: 1;" data-swiper-slide-index="3">
-                    <div style="background: rgba(0, 0, 0, 0.36); height:100%">
-                    <div class="swiper-caption">
-                        <div class="swiper-slide-caption">
-                        <div class="shell">
-                            <div class="range">
-                            <div class="cell-md-7 section-34 section-sm-66 section-md-bottom-167 not-animated" data-caption-animate="fadeInDown" data-caption-delay="100">
-                                <div class="text-md-left">
-                                <div class="caption" style="padding: 20px">
-                                    <h2 class="text-bold text-white">Колоноскопия
-                                    </h2>
-                                    <h5 class="veil reveal-md-block text-white">Современное оборудование и комфортные условия позволяют осуществить деликатный подход к проведению процедуры
-                                    </h5>
-                                    <a href="https://cgb7.ru/blog/35-komfortnye-usloviya-dlya-provedeniya-kolonoskopii" class="btn btn-ellipse btn-blue offset-top-24 not-animated" data-caption-animate="flipInY" data-caption-delay="1000">подробнее
-                                    </a>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="cell-md-5 cell-md-bottom">
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div id="page-loader" data-slide-bg="/images/slides/slide-06.png" class="swiper-slide" style="background-image: url(&quot;/images/slides/slide-06.png&quot;); background-size: cover; background-position: center center; width: 1904px; transform: translate3d(-9520px, 0px, 0px); transition-duration: 0ms; opacity: 1;" data-swiper-slide-index="4">
-                    <div style="background: rgba(0, 0, 0, 0.36); height:100%">
-                    <div class="swiper-caption">
-                        <div class="swiper-slide-caption">
-                        <div class="shell">
-                            <div class="range">
-                            <div class="cell-md-7 section-34 section-sm-66 section-md-bottom-167 not-animated" data-caption-animate="fadeInDown" data-caption-delay="100">
-                                <div class="text-md-left">
-                                <div class="caption" style="padding: 20px">
-                                    <h2 class="text-bold text-white">Профилактика 
-                                    <br class="veil reveal-md-block">повторных переломов
-                                    </h2>
-                                    <h5 class="veil reveal-md-block text-white">Консультативный прием ведет врач-ревматолог, доцент, к.м.н. Фоминых Мария Игоревна.
-                                    <br>
-                                    Информация по телефону 
-                                    <a href="tel:+73433850024">+7 (343) 385 00 24
-                                    </a>
-                                    </h5>
-                                    <a href="https://cgb7.ru/blog/29-17-oktyabrya-sostoyalos-otkrytie-centra-profilaktiki-povtornyh-perelomov" class="btn btn-ellipse btn-blue offset-top-24 not-animated" data-caption-animate="flipInY" data-caption-delay="1000">подробнее
-                                    </a>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="cell-md-5 cell-md-bottom">
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div id="page-loader" data-slide-bg="/images/slides/vich-slide.png" class="swiper-slide" style="background-image: url(&quot;/images/slides/vich-slide.png&quot;); background-size: cover; background-position: center center; width: 1904px; transform: translate3d(-11424px, 0px, 0px); transition-duration: 0ms; opacity: 1;" data-swiper-slide-index="5">
-                    <div style="background: rgba(0, 0, 0, 0.36); height:100%">
-                    <div class="swiper-caption">
-                        <div class="swiper-slide-caption">
-                        <div class="shell">
-                            <div class="range">
-                            <div class="cell-md-7 section-34 section-sm-66 section-md-bottom-167 not-animated" data-caption-animate="fadeInDown" data-caption-delay="100">
-                                <div class="text-md-left">
-                                <div class="caption" style="padding: 20px">
-                                    <h2 class="text-bold text-white">ВИЧ - НЕ ПРИГОВОР!
-                                    </h2>
-                                    <h5 class="veil reveal-md-block text-white">Своевременное и правильное лечение - полноценная счастливая жизнь!
-                                    <br>
-                                    <a href="http://profilaktica.ru/" target="_blank">
-                                        <strong>profilaktica.ru
-                                        </strong>
-                                    </a>
-                                    </h5>
-                                    <a href="https://cgb7.ru/prevention/profilaktika-vich" class="btn btn-ellipse btn-blue offset-top-24 not-animated" data-caption-animate="flipInY" data-caption-delay="1000">подробнее
-                                    </a>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="cell-md-5 cell-md-bottom">
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div id="page-loader" data-slide-bg="/images/slides/slide1.png" class="swiper-slide" style="background-image: url(&quot;/images/slides/slide1.png&quot;); background-size: cover; background-position: center center; width: 1904px; transform: translate3d(-13328px, 0px, 0px); transition-duration: 0ms; opacity: 1;" data-swiper-slide-index="6">
-                    <div style="background: rgba(0, 0, 0, 0.36); height:100%">
-                    <div class="swiper-caption">
-                        <div class="swiper-slide-caption">
-                        <div class="shell">
-                            <div class="range">
-                            <div class="cell-md-7 section-34 section-sm-66 section-md-bottom-167 not-animated" data-caption-animate="fadeInDown" data-caption-delay="100">
-                                <div class="text-md-left">
-                                <div class="caption" style="padding: 20px">
-                                    <h2 class="text-bold text-white">Радиочастотная облитерация
-                                    </h2>
-                                    <h5 class="veil reveal-md-block text-white">Современная методика лечения варикозной болезни без традиционных разрезов, выполняемая под местной анестезией.
-                                    </h5>
-                                    <a href="https://cgb7.ru/lechenie-varikoza" class="btn btn-ellipse btn-blue offset-top-24 not-animated" data-caption-animate="flipInY" data-caption-delay="1000">подробнее
-                                    </a>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="cell-md-5 cell-md-bottom">
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div id="page-loader" data-slide-bg="/images/slides/slide01.png" class="swiper-slide swiper-slide-prev" style="background-image: url(&quot;/images/slides/slide01.png&quot;); background-size: cover; background-position: center center; width: 1904px; transform: translate3d(-15232px, 0px, 0px); transition-duration: 0ms; opacity: 1;" data-swiper-slide-index="7">
-                    <div style="background: rgba(0, 0, 0, 0.36); height:100%">
-                    <div class="swiper-caption">
-                        <div class="swiper-slide-caption">
-                        <div class="shell">
-                            <div class="range">
-                            <div class="cell-md-7 section-34 section-sm-66 section-md-bottom-167 not-animated" data-caption-animate="fadeInDown" data-caption-delay="100">
-                                <div class="text-md-left">
-                                <div class="caption" style="padding: 20px">
-                                    <h2 class="text-bold text-white">Душ 
-                                    <br class="veil reveal-md-block">Шарко
-                                    </h2>
-                                    <h5 class="veil reveal-md-block text-white">Сделай свою фигуру красивой и стройной!
-                                    </h5>
-                                    <a href="https://cgb7.ru/blog/59-dush-sharko-dlya-zdorovya-i-pohudeniya" class="btn btn-ellipse btn-blue offset-top-24 not-animated" data-caption-animate="flipInY" data-caption-delay="1000">подробнее
-                                    </a>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="cell-md-5 cell-md-bottom">
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div id="page-loader" data-slide-bg="/images/slides/slide_covid.png" class="swiper-slide swiper-slide-duplicate swiper-slide-active" style="background-image: url(&quot;/images/slides/slide_covid.png&quot;); background-size: cover; background-position: center center; width: 1904px; transform: translate3d(-17136px, 0px, 0px); transition-duration: 0ms; opacity: 1;" data-swiper-slide-index="0">
-                    <div style="background: rgba(0, 0, 0, 0.36); height:100%">
-                    <div class="swiper-caption">
-                        <div class="swiper-slide-caption">
-                        <div class="shell">
-                            <div class="range">
-                            <div class="cell-md-7 section-34 section-sm-66 section-md-bottom-167 fadeInDown animated" data-caption-animate="fadeInDown" data-caption-delay="100">
-                                <div class="text-md-left">
-                                <div class="caption" style="padding: 20px">
-                                    <h2 class="text-bold text-white">Заявка на вакцинацию
-                                    <br>от COVID-19
-                                    </h2>
-                                    <h5 class="veil reveal-md-block text-white">
-                                    </h5>
-                                    <a href="https://cgb7.ru/prevention/vaccination/covid-19" class="btn btn-ellipse btn-blue offset-top-24 flipInY animated" data-caption-animate="flipInY" data-caption-delay="1000">подробнее
-                                    </a>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="cell-md-5 cell-md-bottom">
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="swiper-pagination swiper-pagination-clickable">
-                <span class="swiper-pagination-bullet swiper-pagination-bullet-active">
-                </span>
-                <span class="swiper-pagination-bullet">
-                </span>
-                <span class="swiper-pagination-bullet">
-                </span>
-                <span class="swiper-pagination-bullet">
-                </span>
-                <span class="swiper-pagination-bullet">
-                </span>
-                <span class="swiper-pagination-bullet">
-                </span>
-                <span class="swiper-pagination-bullet">
-                </span>
-                <span class="swiper-pagination-bullet">
-                </span>
-                </div>
+            <div class="advert__sliders-block">
             </div>
-            </div>
-      <!-- Breadcrumbs-->
-      <!-- Page Content-->
+      
+
+        
+            <!-- Organizational units cards -->
+            <section class="ou-block">
+                <ul class="ou-block__list">
+                    <li class="ou-block__list-element">
+                        <h3 class="ou-block__list-element-header">
+                            Стационар
+                        </h3>
+                        <p class="ou-block__list-element-desc">Оказание экстренной и неотложной помощи</p>
+                        <div class="ou-block__list-element-sheduleblock">
+                            <p  class="ou-block__list-element-sheduledays">Пн-Вс</p>
+                            <p  class="ou-block__list-element-shedulevalue">круглосуточно</p>
+                        </div>
+                        <p class="ou-block__list-element-desc">Лечащие врачи подразделений и служб</p>
+                        <div class="ou-block__list-element-sheduleblock">
+                            <p  class="ou-block__list-element-sheduledays">Пн-Пт</p>
+                            <p  class="ou-block__list-element-shedulevalue">8:00 – 17:00</p>
+                        </div>
+                        <div class="ou-block__list-element-sheduleblock">
+                            <p  class="ou-block__list-element-sheduledays">Сб-Вс</p>
+                            <p  class="ou-block__list-element-shedulevalue">выходной</p>
+                        </div>
+                    </li>
+                </ul>
+                
+            </section>
+
       <main class="page-content">
         <!-- Schedule And Info-->
         <section class="bg-white-liac">
