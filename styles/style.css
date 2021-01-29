@@ -608,6 +608,7 @@
 .bestoffer {
 	background-image: url(../img/background-03-1920x537.jpg);
 	width: 100vw;
+	margin: 30px;
 	padding: 85px 0 85px 0;
 }
 
