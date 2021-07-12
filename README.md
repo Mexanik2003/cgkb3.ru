@@ -11,3 +11,5 @@ HTML
 CSS   
  
 ### Посмотреть результат: [Github-pages](https://mexanik2003.github.io/cgkb3.ru/)
+
+### Посмотреть на сайте: [ckgb3.ru](https://cgkb3.ru/)
